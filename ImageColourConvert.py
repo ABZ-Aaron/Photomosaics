@@ -6,11 +6,9 @@ Created on Sun Sep 20 18:21:35 2020
 @author: aaronwright
 """
 
-
 from PIL import Image
 from transforms import RGBTransform # from source code mentioned above
 import itertools
-
 
 # Open image for duplication
 im = Image.open("/Users/aaronwright/Documents/DataScience/Projects/Photomosaics/Images/Hiro.jpg").convert("RGB")
